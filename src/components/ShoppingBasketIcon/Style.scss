@@ -1,0 +1,24 @@
+.ShoppingQuantityBadge {
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    span {
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: red;
+        color: white;
+        border-radius: 100%;
+        width: 1.25rem;
+        height: 1.25rem;
+        overflow: hidden;
+        font-weight: bold;
+        margin-top: -14px !important;
+        margin-left: 2px !important;    
+    }
+}

@@ -1,0 +1,244 @@
+//4-4-4 (550px-1326px)
+@media (max-width: 1326px) {
+    html {
+       font-size: 100%;
+    }
+}
+@media (max-width: 1200px) {
+    html {
+       font-size: 97%;
+    }
+}
+@media (max-width: 1100px) {
+    html {
+       font-size: 93%;
+    }
+}
+@media (max-width: 991px) {
+    html {
+       font-size: 70%;
+    }
+
+    .ShoppingQuantityBadge {
+        margin-top: 0.3rem;
+    }
+
+    .container {
+        .card {
+            &_content {
+                &_about {
+                    margin-top: -0.65rem;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    html {
+        font-size: 50.5%;
+    }
+
+    .ShoppingQuantityBadge {
+        span {
+            margin-top: -1.05rem !important;
+        }
+    }    
+}
+
+
+
+
+
+//6-6 (425px-550px)
+@media (max-width: 550px) {
+    html {
+       font-size: 80.75%;
+    }
+
+    .ShoppingQuantityBadge {
+        margin-top: 0;
+        span {
+            margin-top: -0.95rem !important;
+            margin-left: 0.25rem !important;    
+        }
+    }
+
+    .basket {
+        table {
+            width: 36.5rem;
+        }
+    }
+
+    .flexDirectionCol550 {
+        flex-direction: column;
+
+        span {
+            margin-top: -1.5rem;
+        }
+    }
+}
+@media (max-width: 530px) {
+    html {
+       font-size: 78.75%;
+    }
+}
+@media (max-width: 510px) {
+    html {
+       font-size: 76.75%;
+    }
+}
+@media (max-width: 500px) {
+    html {
+       font-size: 68.75%;
+    }
+}
+@media (max-width: 460px) {
+    html {
+       font-size: 64.65%;
+    }
+}
+@media (max-width: 435px) {
+    html {
+       font-size: 63.25%;
+    }
+}
+
+
+
+
+
+//6-6 (425px-550px)
+@media (max-width: 425px) {
+    html {
+       font-size: 86.25%;
+    }
+
+    .container {
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+
+        .card {
+            height: 29.35rem;
+            margin-top: 0.35rem;
+            &_content {
+                margin-top: -2rem;
+
+                &_badge {
+                    padding: 2.95rem;
+                }
+        
+                img {
+                    height: 19rem;
+                    width: 21rem;
+                }    
+            }
+        }
+    }
+
+    .ShoppingQuantityBadge {
+        margin-top: 0.55rem;
+    }
+
+    .basket {
+        table {
+            width: 1rem;
+        }
+
+        #bill {
+            div {
+                flex-direction: column;
+            }
+        }
+    }
+
+    .navbar {
+        .container {
+            margin-top: -0.35rem;
+            span {
+                margin-top: -0.95rem;
+            }
+        }
+    }
+
+    #btns {
+        flex-direction: column;
+    }
+}
+@media (max-width: 335px) {
+    html {
+       font-size: 80.25%;
+    }
+
+    .container {
+        .card {
+            height: 31.45rem;
+        }
+    }
+}
+@media (max-width: 300px) {
+    html {
+       font-size: 76.25%;
+    }
+    
+    .basket {
+        table {
+            height: 480px;   //fixing table height in px
+        }
+    }
+}
+@media (max-width: 290px) {
+    html {
+       font-size: 72.25%;
+    }
+}
+@media (max-width: 275px) {
+    html {
+       font-size: 68.25%;
+    }
+}
+@media (max-width: 265px) {
+    html {
+       font-size: 64.25%;
+    }
+}
+@media (max-width: 245px) {
+    html {
+       font-size: 58.25%;
+    }
+}
+@media (max-width: 230px) {
+    html {
+       font-size: 54.05%;
+    }
+}
+@media (max-width: 215px) {
+    html {
+       font-size: 49.25%;
+    }
+}
+@media (max-width: 200px) {
+    html {
+       font-size: 43.8%;
+    }
+}
+@media (max-width: 180px) {
+    html {
+       font-size: 40.25%;
+    }
+}
+@media (max-width: 165px) {
+    html {
+       font-size: 35.75%;
+    }
+
+    .container {
+        .card {
+            height: 44.5rem;
+        }
+    }
+}
+@media (max-width: 157px) {
+    html {
+       font-size: 33%;
+    }
+}

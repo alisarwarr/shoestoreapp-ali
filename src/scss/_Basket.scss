@@ -1,0 +1,91 @@
+.basket {
+    //trick for entire page
+    height: 100%;
+    width: 100%;
+    //trick for entire page
+
+
+    //trick for child center
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    //trick for child center
+    
+
+    #orders, #bill {
+        h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: afont;
+        }
+        .badge {
+            font-family: sans-serif;
+            margin-left: 0.7rem;
+            margin-top: 1rem;
+        }
+        div {
+            display: flex;
+            align-items: center;
+            h2 {
+                flex: 1;
+            }
+            button {
+                display: flex;
+                align-items: center;
+                width: 6.75rem;
+                border-color: orange;
+                background-color: orange;
+                font-family: cfont;
+                span {
+                    flex: 1;
+                }
+            }
+        }
+    }
+
+
+    table {
+        width: 50rem;
+        margin-top: 1rem;
+        tr {
+            th, td {
+                border: 1px solid rgb(216, 215, 215);
+
+                button {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;     
+                    margin-left: 0.45rem;       
+                }
+            }
+
+            .first {
+                width: 10%;
+                text-align: center;
+            }
+            .second {
+                width: 30%;
+                text-align: center;
+                font-family: bfont;
+            }
+            .third {
+                width: 20%;
+                text-align: center;
+                font-family: cfont;
+            }
+            .fourth {
+                width: 5%;
+            }
+
+            th {
+                font-family: cfont !important;
+            }
+        }
+    }    
+}

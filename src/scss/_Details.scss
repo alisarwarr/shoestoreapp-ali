@@ -1,0 +1,100 @@
+.details {
+    //trick for entire page
+    height: 100%;
+    width: 100%;
+    //trick for entire page
+
+
+    //trick for child center
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    //trick for child center
+
+    
+    //sample jumbotron code
+    .jumbotron {
+        position: relative;
+        padding:0 !important;
+        background: black;
+        text-align:center;
+        margin-bottom: 0 !important;
+        color: white;
+
+        hr {
+            border-top: 1px solid rgb(49, 49, 49);
+        }
+    }
+    .container-fluid{
+        padding:0 !important;
+    }
+    .col-xs-4{
+        background:rgba(157,52,99,0.7);
+    }
+    //sample jumbotron code
+
+
+    p {
+        color: white;
+        font-family: serif;
+        b {
+            color: red;
+            font-family: sans-serif;
+        }
+    }
+    #name {
+        font-family: afont;
+        padding-bottom: 1rem;
+    }
+    #about {
+        font-family: monospace;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+
+    table {
+        width: 31.875rem;
+    }
+
+    
+    img {
+        height: 12rem;
+        width: 14rem;
+        object-fit: contain;
+    }
+
+
+    #btns {
+        display: flex;
+        align-items: center;
+        #addbtn, #removebtn, #quitedbtn {
+            width: 1.5rem;
+            height: 1.5rem;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;     
+            margin-left: 0.45rem;           
+            margin-top: 0.5rem;
+        }    
+    }
+
+
+    #homebtn {
+        color: black;
+        background-color: white;
+        font-family: sans-serif;
+        /* Animation */
+        transition: transform 450ms;
+        &:hover {
+            background-color: white;
+            color: #da6e21;
+            /* Animation */
+            transform: scale(1.01);
+            transition: 0.5s;
+        }
+    }
+}
